@@ -1,0 +1,14 @@
+Go to chrome-untrusted://terminal/html/nassh_preferences_editor.html, paste the following into Custom CSS (inline text) box
+
+----------------
+
+@font-face {
+font-family: "DejaVu Sans Mono Nerd";
+src: url(https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/DejaVuSansMono/Regular/DejaVuSansMNerdFontMono-Regular.ttf);
+font-weight: normal;
+font-style: normal;
+}
+
+----------------
+
+Add 'DejaVu Sans Mono Nerd', to Text Font Family box

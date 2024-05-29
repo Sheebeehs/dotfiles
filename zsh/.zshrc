@@ -123,11 +123,12 @@ source $ZSH/oh-my-zsh.sh
 
 alias rxfetch='rxfetch/rxfetch'
 alias tastool='./love-11.4-x86_64.AppImage ~/Celia-master celeste.p8'
+alias weather='curl https://wttr.in/Millburn\?0FQu'
 alias pico8='pico-8/pico8 & disown'
 
 #alias nvim='nvim -c "help" -c "helpclose" -c "Alpha" -c "NvimTreeToggle"'
 alias nvim='nvim -c'h' -c'helpclose''
-alias clock='tty-clock -Dc'
+alias clock='tty-clock -bcnstDC 7'
 #echo -e "\033[0;30m            .                   .     ."
 #echo -e "\033[0;96m    +                    │      \033[0;36m;                 +     "
 #echo -e "\033[0;35m                 .      ╭╯╮ \033[0;30m- \033[0;36m-\033[0;35m-\033[0;39m+\033[0;35m- -"
