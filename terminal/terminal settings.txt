@@ -1,0 +1,25 @@
+Terminal
+
+    Background (no image): #202935
+    Text: #FFFFFF
+    Cursor: #74A4B3
+    Line height: 1
+
+ANSI colors
+
+    00: #2B4750
+    01: #B8B56B
+    02: #5EA6C5
+    03: #72ACC5
+    04: #5B7B86
+    05: #67BDC2
+    06: #62A0A3
+    07: #3E5860
+    08: #93BFD2
+    09: #7DA9E3
+    10: #7DA9E3
+    11: #CAC27D
+    12: #74A4B3
+    13: #C792EA
+    14: #71E3E3
+    15: #416576
