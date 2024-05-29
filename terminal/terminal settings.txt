@@ -1,6 +1,6 @@
 Terminal
 
-    Background (no image): #202935
+    Background (no image): #1D2733
     Text: #FFFFFF
     Cursor: #74A4B3
     Line height: 1
