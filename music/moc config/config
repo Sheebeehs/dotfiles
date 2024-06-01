@@ -1,0 +1,13 @@
+Theme = /usr/share/moc/themes/transparent-background
+
+ReadTags = yes
+
+MusicDir = /home/sheebeehs/music
+
+StartInMusicDir = no
+
+ShowFormat = no
+ShowTime = no
+ShowTImePercent = yes
+
+FormatString = "%(a:%a - :)%(t:%t:)"
