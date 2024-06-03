@@ -4,6 +4,10 @@ ReadTags = yes
 
 MusicDir = /home/sheebeehs/music
 
+SavePlaylist = yes
+
+PlaylistNumbering = no
+
 StartInMusicDir = no
 
 ShowFormat = no
