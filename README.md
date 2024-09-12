@@ -1,8 +1,8 @@
 # dotfiles
 
-storage for when Crostini breaks for the 2816th time so i need my configs back
+Storage for when Crostini breaks for the 2816th time so I need my configs back
 
-also pretty much all of the colors depend on the messed up terminal palette i use so they will probably suck
+Also pretty much all of the colors depend on the messed up terminal palette I use so they will probably suck
 
 ![Screenshot 1](https://cdn.discordapp.com/attachments/797480595491127309/1246515898169168037/tmux_rice.png?ex=665cabe5&is=665b5a65&hm=eeba5b9d3424934928c1a8e233773d582acce6e7b27efd61fab60ec8453a7326&)
 
