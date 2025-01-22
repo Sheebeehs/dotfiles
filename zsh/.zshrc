@@ -11,8 +11,8 @@ echo -e "\033[0;30m ───╯   ╰─╯       '  ╰╯    ' ╰─╯    �
 #export TERM="xterm-256color"
 rxfetch/rxfetch
 
-# curl https://wttr.in/Millburn\?0FQu
-# echo -e ""
+#curl https://wttr.in/Millburn\?0FQu
+#echo -e ""
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -125,10 +125,15 @@ alias rxfetch='rxfetch/rxfetch'
 alias tastool='./love-11.4-x86_64.AppImage ~/Celia-master celeste.p8'
 alias weather='curl https://wttr.in/Millburn\?0FQu'
 alias pico8='pico-8/pico8 & disown'
-
 #alias nvim='nvim -c "help" -c "helpclose" -c "Alpha" -c "NvimTreeToggle"'
 alias nvim='nvim -c'h' -c'helpclose''
 alias clock='tty-clock -bcnstDC 7'
+alias visualizer='cava'
+alias lunanights='wine touhou/Touhou\ Luna\ Nights/touhou_luna_nights.exe & disown'
+alias newlestehorn='./love-11.5-x86_64.AppImage newlestehorn-1.3.3-linux & disown'
+alias fixwifi='sudo systemctl restart networking.service'
+alias please='sudo $(fc -ln -1)'
+
 #echo -e "\033[0;30m            .                   .     ."
 #echo -e "\033[0;96m    +                    │      \033[0;36m;                 +     "
 #echo -e "\033[0;35m                 .      ╭╯╮ \033[0;30m- \033[0;36m-\033[0;35m-\033[0;39m+\033[0;35m- -"
@@ -146,6 +151,8 @@ alias clock='tty-clock -bcnstDC 7'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH=/home/sheebeehs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/local/games:/usr/sbin:/usr/bin:/usr/games:/sbin:/bin
+
+source "$HOME/.cargo/env"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
