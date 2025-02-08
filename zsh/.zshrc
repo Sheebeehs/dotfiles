@@ -133,6 +133,7 @@ alias lunanights='wine touhou/Touhou\ Luna\ Nights/touhou_luna_nights.exe & diso
 alias newlestehorn='./love-11.5-x86_64.AppImage newlestehorn-1.3.3-linux & disown'
 alias fixwifi='sudo systemctl restart networking.service'
 alias please='sudo $(fc -ln -1)'
+alias celia='./love-11.5-x86_64.AppImage ~/Celia-master' # run "celia cartname.p8, cart should be in the celia folder"
 
 #echo -e "\033[0;30m            .                   .     ."
 #echo -e "\033[0;96m    +                    │      \033[0;36m;                 +     "
